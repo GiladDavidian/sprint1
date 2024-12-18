@@ -42,7 +42,7 @@ function renderBoard() {
     for (var i = 0; i < matBoard.length; i++) {
         strHTML += `<tr>`
         for (var j = 0; j < matBoard[0].length; j++) {
-            strHTML += `<td></td>`
+            strHTML += `<td><button>X</button></td>`
         }
         strHTML += `</tr>`
     }
@@ -50,3 +50,6 @@ function renderBoard() {
     elBoard.innerHTML = strHTML
 }
 
+function setMinesNegsCount(){
+
+}
